@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="66D_TMCP6YaaxKXVRk1N">
+    <mxGraphModel dx="3489" dy="1247" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" value="Global Transfer" vertex="1">
+          <mxGeometry height="30" width="142" x="21" y="24" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Create Global Transfer Request&lt;/span&gt;" vertex="1">
+          <mxGeometry height="737" width="1269" x="21" y="218" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-28" edge="1" parent="JKJ8CJzljYSg0WWwIN6S-5" source="JKJ8CJzljYSg0WWwIN6S-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="JKJ8CJzljYSg0WWwIN6S-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-2" parent="JKJ8CJzljYSg0WWwIN6S-5" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Maker" vertex="1">
+          <mxGeometry height="60" width="30" x="22" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-29" edge="1" parent="JKJ8CJzljYSg0WWwIN6S-5" source="JKJ8CJzljYSg0WWwIN6S-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JKJ8CJzljYSg0WWwIN6S-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-11" parent="JKJ8CJzljYSg0WWwIN6S-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Navigate to Banking -&amp;gt; Global Transfer" vertex="1">
+          <mxGeometry height="60" width="167" x="128" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-31" edge="1" parent="JKJ8CJzljYSg0WWwIN6S-5" source="JKJ8CJzljYSg0WWwIN6S-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JKJ8CJzljYSg0WWwIN6S-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-27" parent="JKJ8CJzljYSg0WWwIN6S-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Select existing recipient / Create new recipient" vertex="1">
+          <mxGeometry height="60" width="167" x="406" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-33" edge="1" parent="JKJ8CJzljYSg0WWwIN6S-5" source="JKJ8CJzljYSg0WWwIN6S-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JKJ8CJzljYSg0WWwIN6S-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-30" parent="JKJ8CJzljYSg0WWwIN6S-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Input transaction details like amount, network and fee" vertex="1">
+          <mxGeometry height="60" width="167" x="684" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-35" edge="1" parent="JKJ8CJzljYSg0WWwIN6S-5" source="JKJ8CJzljYSg0WWwIN6S-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JKJ8CJzljYSg0WWwIN6S-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-32" parent="JKJ8CJzljYSg0WWwIN6S-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;/accounts/private/v1/transfer-requests/global/quotation&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to create quotation&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="223" x="973" y="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-37" edge="1" parent="JKJ8CJzljYSg0WWwIN6S-5" source="JKJ8CJzljYSg0WWwIN6S-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="JKJ8CJzljYSg0WWwIN6S-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-34" parent="JKJ8CJzljYSg0WWwIN6S-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Enter &amp;amp; Preview Beneficiary details" vertex="1">
+          <mxGeometry height="60" width="167" x="1001" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-39" edge="1" parent="JKJ8CJzljYSg0WWwIN6S-5" source="JKJ8CJzljYSg0WWwIN6S-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="JKJ8CJzljYSg0WWwIN6S-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-36" parent="JKJ8CJzljYSg0WWwIN6S-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Enter &amp;amp; Preview Additional details" vertex="1">
+          <mxGeometry height="60" width="167" x="684" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-42" edge="1" parent="JKJ8CJzljYSg0WWwIN6S-5" source="JKJ8CJzljYSg0WWwIN6S-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="JKJ8CJzljYSg0WWwIN6S-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-38" parent="JKJ8CJzljYSg0WWwIN6S-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Preview all details regarding the Global Transfer Request" vertex="1">
+          <mxGeometry height="60" width="167" x="406" y="202" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-44" edge="1" parent="JKJ8CJzljYSg0WWwIN6S-5" source="JKJ8CJzljYSg0WWwIN6S-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JKJ8CJzljYSg0WWwIN6S-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-41" parent="JKJ8CJzljYSg0WWwIN6S-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;POST /accounts/private/v1/&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: rgb(253, 156, 214);&quot;&gt;transfer-requests/global/otp&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to request for OTP&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="223" x="100" y="188.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-43" parent="JKJ8CJzljYSg0WWwIN6S-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;POST /accounts/private/v1/&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: rgb(253, 156, 214);&quot;&gt;transfer-requests/global&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to create the Global Transfer Request&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="223" x="100" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Prerequisite&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="77" x="21" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;The company owns a Virtual Account (VA) in MatchMove (MM)&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="30" width="444" x="22" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-49" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=18;align=left;" value="When creating global transfer request, it does：&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Wallet balance validation&lt;/div&gt;&lt;div&gt;2. MM limits validation&lt;/div&gt;&lt;div&gt;3. INFII transaction limit validation (To be implemented)&lt;br&gt;4. If it is a new recipient, create remittance recipient in MM &amp;amp; create new recipient in our MMRecipient table&lt;/div&gt;&lt;div&gt;5. Create a new transaction task&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="194" width="893" x="-900" y="535" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
