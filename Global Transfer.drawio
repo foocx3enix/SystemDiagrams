@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="66D_TMCP6YaaxKXVRk1N">
-    <mxGraphModel dx="3489" dy="1247" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,6 +75,26 @@
         </mxCell>
         <mxCell id="JKJ8CJzljYSg0WWwIN6S-49" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=18;align=left;" value="When creating global transfer request, it does：&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Wallet balance validation&lt;/div&gt;&lt;div&gt;2. MM limits validation&lt;/div&gt;&lt;div&gt;3. INFII transaction limit validation (To be implemented)&lt;br&gt;4. If it is a new recipient, create remittance recipient in MM &amp;amp; create new recipient in our MMRecipient table&lt;/div&gt;&lt;div&gt;5. Create a new transaction task&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="194" width="893" x="-900" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Approve Global Transfer Request&lt;/span&gt;" vertex="1">
+          <mxGeometry height="737" width="1269" x="21" y="1152" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-2" edge="1" parent="5VOFnX5OII6aDvyBcTs3-1" source="5VOFnX5OII6aDvyBcTs3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="5VOFnX5OII6aDvyBcTs3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-3" parent="5VOFnX5OII6aDvyBcTs3-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Maker" vertex="1">
+          <mxGeometry height="60" width="30" x="22" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-4" edge="1" parent="5VOFnX5OII6aDvyBcTs3-1" source="5VOFnX5OII6aDvyBcTs3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="406" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-5" parent="5VOFnX5OII6aDvyBcTs3-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Navigate to Approval -&amp;gt; Pending Approval -&amp;gt; Select the task" vertex="1">
+          <mxGeometry height="60" width="167" x="128" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-11" parent="5VOFnX5OII6aDvyBcTs3-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;/accounts/private/v1/&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: rgb(253, 156, 214);&quot;&gt;transaction-task/:id/assign-self&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to assign task to himself&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="223" x="407" y="56.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
