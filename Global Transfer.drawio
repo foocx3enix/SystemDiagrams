@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="66D_TMCP6YaaxKXVRk1N">
-    <mxGraphModel dx="2684" dy="660" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2776" dy="701" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,12 +77,12 @@
           <mxGeometry height="194" width="893" x="-900" y="535" as="geometry" />
         </mxCell>
         <mxCell id="5VOFnX5OII6aDvyBcTs3-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Approve Global Transfer Request&lt;/span&gt;" vertex="1">
-          <mxGeometry height="921" width="1269" x="11" y="1123" as="geometry" />
+          <mxGeometry height="944" width="1269" x="11" y="1123" as="geometry" />
         </mxCell>
         <mxCell id="5VOFnX5OII6aDvyBcTs3-2" edge="1" parent="5VOFnX5OII6aDvyBcTs3-1" source="5VOFnX5OII6aDvyBcTs3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="5VOFnX5OII6aDvyBcTs3-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5VOFnX5OII6aDvyBcTs3-3" parent="5VOFnX5OII6aDvyBcTs3-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Maker" vertex="1">
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-3" parent="5VOFnX5OII6aDvyBcTs3-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Checker" vertex="1">
           <mxGeometry height="60" width="30" x="22" y="70" as="geometry" />
         </mxCell>
         <mxCell id="5VOFnX5OII6aDvyBcTs3-4" edge="1" parent="5VOFnX5OII6aDvyBcTs3-1" source="5VOFnX5OII6aDvyBcTs3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5VOFnX5OII6aDvyBcTs3-11">
@@ -179,6 +179,38 @@
         </mxCell>
         <mxCell id="5VOFnX5OII6aDvyBcTs3-49" parent="1" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=18;align=left;" value="When it goes back to&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(78, 201, 176), rgb(6, 112, 90)); background-color: light-dark(rgb(18, 19, 20), rgb(220, 221, 222)); text-align: center; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;MMTransaction &lt;/span&gt;&lt;span style=&quot;color: rgb(210, 168, 255); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre; background-color: rgb(18, 19, 20);&quot;&gt;emitTransactionEvent()&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;, it does：&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1. Update the&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;MMTransactionAPI substatus&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&amp;nbsp;to success_indicator / failed_indicator depends on the response from MM&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;2. Send &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;MMTransactionAPI&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt; into channel&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="134" width="893" x="1312" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-58" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Complete Global Transfer Request&lt;/span&gt;" vertex="1">
+          <mxGeometry height="944" width="1269" x="24" y="2357" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-60" parent="5VOFnX5OII6aDvyBcTs3-58" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="MM Webhook" vertex="1">
+          <mxGeometry height="60" width="30" x="55" y="107.75" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-61" edge="1" parent="5VOFnX5OII6aDvyBcTs3-58" source="5VOFnX5OII6aDvyBcTs3-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="5VOFnX5OII6aDvyBcTs3-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="153" y="137.75" as="sourcePoint" />
+            <mxPoint x="264" y="137.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-63" edge="1" parent="5VOFnX5OII6aDvyBcTs3-58" source="5VOFnX5OII6aDvyBcTs3-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5VOFnX5OII6aDvyBcTs3-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-64" parent="5VOFnX5OII6aDvyBcTs3-58" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;font-family: monospace; font-size: 11.7px; white-space: pre-wrap; background-color: rgb(253, 156, 214); color: rgb(140, 140, 140);&quot;&gt;POST /accounts/mm/webhook&lt;/span&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;with&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255); background-color: rgb(18, 19, 20); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; white-space: pre;&quot;&gt;PAYOUT.TRANSACTION.CROSSBORDER.STATUS&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(25, 29, 23), rgb(210, 214, 209)); font-family: system-ui, sans-serif; text-align: start; background-color: transparent;&quot;&gt;&amp;nbsp;event type&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="97.5" width="353" x="199" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-65" edge="1" parent="5VOFnX5OII6aDvyBcTs3-58" source="5VOFnX5OII6aDvyBcTs3-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5VOFnX5OII6aDvyBcTs3-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-66" parent="5VOFnX5OII6aDvyBcTs3-58" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;POST /accounts/private/v1/&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: rgb(253, 156, 214);&quot;&gt;transaction-task/:id/otp&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to request for OTP for approval&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="223" x="695" y="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-67" edge="1" parent="5VOFnX5OII6aDvyBcTs3-58" source="5VOFnX5OII6aDvyBcTs3-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1113.5" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-68" parent="5VOFnX5OII6aDvyBcTs3-58" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;PUT /accounts/private/v1/&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: rgb(253, 156, 214);&quot;&gt;transaction-task/:id/approve&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to approve the task&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="223" x="1002" y="56.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
