@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="66D_TMCP6YaaxKXVRk1N">
-    <mxGraphModel dx="2284" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3073" dy="1020" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="JKJ8CJzljYSg0WWwIN6S-35" edge="1" parent="JKJ8CJzljYSg0WWwIN6S-5" source="JKJ8CJzljYSg0WWwIN6S-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JKJ8CJzljYSg0WWwIN6S-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JKJ8CJzljYSg0WWwIN6S-32" parent="JKJ8CJzljYSg0WWwIN6S-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;/accounts/private/v1/transfer-requests/global/quotation&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to create quotation&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="JKJ8CJzljYSg0WWwIN6S-32" parent="JKJ8CJzljYSg0WWwIN6S-5" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;POST /accounts/private/v1/transfer-requests/global/quotation&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to create quotation&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="87" width="223" x="973" y="56.5" as="geometry" />
         </mxCell>
         <mxCell id="JKJ8CJzljYSg0WWwIN6S-37" edge="1" parent="JKJ8CJzljYSg0WWwIN6S-5" source="JKJ8CJzljYSg0WWwIN6S-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="JKJ8CJzljYSg0WWwIN6S-36">
@@ -85,7 +85,7 @@
         <mxCell id="5VOFnX5OII6aDvyBcTs3-3" parent="5VOFnX5OII6aDvyBcTs3-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Maker" vertex="1">
           <mxGeometry height="60" width="30" x="22" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="5VOFnX5OII6aDvyBcTs3-4" edge="1" parent="5VOFnX5OII6aDvyBcTs3-1" source="5VOFnX5OII6aDvyBcTs3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-4" edge="1" parent="5VOFnX5OII6aDvyBcTs3-1" source="5VOFnX5OII6aDvyBcTs3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5VOFnX5OII6aDvyBcTs3-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="406" y="100" as="targetPoint" />
           </mxGeometry>
@@ -93,8 +93,20 @@
         <mxCell id="5VOFnX5OII6aDvyBcTs3-5" parent="5VOFnX5OII6aDvyBcTs3-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Navigate to Approval -&amp;gt; Pending Approval -&amp;gt; Select the task" vertex="1">
           <mxGeometry height="60" width="167" x="128" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="5VOFnX5OII6aDvyBcTs3-11" parent="5VOFnX5OII6aDvyBcTs3-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;/accounts/private/v1/&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: rgb(253, 156, 214);&quot;&gt;transaction-task/:id/assign-self&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to assign task to himself&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="87" width="223" x="407" y="56.5" as="geometry" />
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-23" edge="1" parent="5VOFnX5OII6aDvyBcTs3-1" source="5VOFnX5OII6aDvyBcTs3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5VOFnX5OII6aDvyBcTs3-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-11" parent="5VOFnX5OII6aDvyBcTs3-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;PUT /accounts/private/v1/&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: rgb(253, 156, 214);&quot;&gt;transaction-task/:id/assign-self&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to assign task to himself&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="223" x="393" y="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-25" edge="1" parent="5VOFnX5OII6aDvyBcTs3-1" source="5VOFnX5OII6aDvyBcTs3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5VOFnX5OII6aDvyBcTs3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-22" parent="5VOFnX5OII6aDvyBcTs3-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;POST /accounts/private/v1/&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: rgb(253, 156, 214);&quot;&gt;transaction-task/:id/otp&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to request for OTP for approval&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="223" x="695" y="56.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5VOFnX5OII6aDvyBcTs3-24" parent="5VOFnX5OII6aDvyBcTs3-1" style="rounded=1;whiteSpace=wrap;html=1;" value="Triggers&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start; background-color: rgb(253, 156, 214);&quot;&gt;POST /accounts/private/v1/&lt;/span&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;&lt;span style=&quot;background-color: rgb(253, 156, 214);&quot;&gt;transaction-task/:id/approve&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(25, 29, 23); font-family: system-ui, sans-serif; text-align: start;&quot;&gt;to approve the task&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="223" x="1002" y="56.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
